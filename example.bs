@@ -1,0 +1,26 @@
+//this is a comment
+num x = 5; //this is a number
+string str = "Hello"; //this is a string
+//notice the use of semicolons
+if(true == 1) // booleans are just numbers. numbers can be seen as booleans. anything that isnt zero is seen as a boolean.
+//=> also notice the use of braces around the if statement.
+
+struct Bar {
+  shit1: num,
+  shit2: num,
+  shit3: string,
+}
+
+fn foo(x: num, y: string) => num {
+  print(y);
+  num //returns work by appending an expression and not using a semicolon
+}
+
+//this is what an example program would actually look like:
+fn hello_world() { //if a return type is not defined, it will just be void
+  print("Hello world!\n");
+}
+
+fn main() {
+  hello_world();
+}
